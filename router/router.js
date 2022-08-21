@@ -12,72 +12,38 @@ Vue.use(VueRouter)
     routes: [
         {
             path: '/',
-            redirect:'/login',
-			component: () => import('@/pages/login/login')
-        },
-        {
-            path: '/login',
-            component: () => import('@/pages/login/login'),
-			meta: {title: '登录'},
+            redirect:'home',
         },
 		{
 		    path: '/home',
-		    component: () => import('@/pages/index/home'),
+		    component: () => import('@/page/home/home'),
 		    meta: {title: '首页'},
 				 
 		},
 		{
-					path: '/dailyCheck',
-					component: () => import('@/pages/assist/dailyCheck/dailyCheck'),
-					meta: {title: '健康打卡'},
-			},
-		{
-					path: '/quickQuit',
-					component: () => import('@/pages/assist/quickQuit/quickQuit'),
-					meta: {title: '一键出校'},
+		    path: '/search',
+		    component: () => import('@/page/search/search'),
+		    meta: {title: '搜索'},
 				 
 		},
 		{
-		    path: '/register',
-			component: () => import('@/pages/register/register'),
-			meta: {title: '注册'}
+		    path: '/recommend',
+		    component: () => import('@/page/recommend/recommend'),
+		    meta: {title: '推荐'},
+				 
 		},
 		{
-		    path: '/notice',
-			component: () => import('@/pages/notice/notice'),
-		    meta: {title: '消息'},
-		    
+		    path: '/tracks',
+		    component: () => import('@/page/tracks/tracks'),
+		    meta: {title: '推荐'},
+				 
 		},
 		{
-		    path: '/my',
-		    component: () => import('@/pages/my/my'),
-		     meta: {title: '我的'},
-		    
+		    path: '/player',
+		    component: () => import('@/page/player/player'),
+		    meta: {title: '播放'},
+				 
 		},
-		{
-		    path: '/option',
-		    component: () => import('@/pages/option/option'),
-		     meta: {title: '设置'},
-		    
-		},
-		{
-		    path: '/tools',
-		   component: () => import('@/pages/tools/tools'),
-		     meta: {title: '工具'},
-		    
-		},
-		{
-		    path: '/help',
-		    // component: login,
-			meta: {title: '帮助'},
-			children:[
-				{
-				    path: '/repasswd',
-				    component: () => import('@/pages/help/repassword/repassword'),
-				    meta: {title: '重置密码'},
-				}
-			]
-		}
 		
     ]
 })

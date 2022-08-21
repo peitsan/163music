@@ -2,191 +2,44 @@
 	"pages": [
 		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-		    "path" : "pages/login/login",
+		    "path" : "page/home/home",
 		    "style" :                                                                                    
 		    {
-		        "navigationBarTitleText": "登录",
+		        "navigationBarTitleText": "主页",
 		        "enablePullDownRefresh": false
 		    }
 		},
 		{
-			"path": "pages/index/home",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}, 
-		{
-			"path": "pages/index/coronavirus/coronavirus",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		
-		}, 
-		
-		{
-			"path": "pages/index/camera/camera",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-
-		},
-		
-		{
-            "path" : "pages/my/my",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        },
-		
-		{
-            "path" : "pages/tools/tools",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        },
-		{
-            "path" : "pages/option/option",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/assist/assist",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/notice/notice",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/register/register",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/help/repassword/repassword",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/assist/dailyCheck/dailyCheck",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        },
-		{
-			"path": "pages/map/index/index"
+		    "path" : "page/home/home",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "推荐",
+		        "enablePullDownRefresh": false
+		    }
 		},
 		{
-			"path": "pages/map/chooselocation/index",
-			"style": {
-				"app-plus": {
-					"titleNView": false,
-		            "softinputMode": "adjustResize"
-				},
-		        "navigationBarTextStyle": "white"
-			}
+		    "path" : "page/search/search",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "搜索",
+		        "enablePullDownRefresh": false
+		    }
 		}
+		
         ,{
-            "path" : "components/e-slider-data/e-slider-data",
+            "path" : "page/player/player",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "播放",
                 "enablePullDownRefresh": false
             }
             
         }
         ,{
-            "path" : "components/tabbar-grid/tabbar-grid",
+            "path" : "page/tracks/tracks",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/assist/assist",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/assist/quickQuit/quickQuit",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/assist/dailyCheck/checkNow",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "page/home/home",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "page/search/search",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "page/recommend/recommend",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "歌单",
                 "enablePullDownRefresh": false
             }
             

@@ -4,20 +4,9 @@
   </div>
 </template>
 <script>
-	import { MP } from './BMap' 
+	
 	export default {
 		  name: 'App',
-		  components: {
-		
-		  },
-		  data(){
-			  return{
-				ak:'H8DKqCMdiFB2xmKGytErujDiNN6K8Utt'  
-			  }
-		  },
-		async mounted(){
-		        await MP(this.ak);
-		    },
 		onLaunch: function() {
 			let _this = this;
 				uni.getSystemInfo({
@@ -68,9 +57,9 @@
 			windowHeight: 0,
 			statusBarHeight: 0,
 			// menuButtonInfo:[],
-			domain: 'http:/cqupt.liiru.com', //线上地址
+			domain: 'http:/music.163.liiru.com', //线上地址
 		},
-		 // 当界面进入活跃状态时触发
+		 // 当界面进活入跃状态时触发
 		activated() {
 		      this.$router.push(this.path)
 		    },
